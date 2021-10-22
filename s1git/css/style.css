@@ -4,15 +4,16 @@ H1 {
 
 .page{
     display: table;
-    width: 100%
+    width: 100%;
 }
 
 .container {
     float: left;
-    width: 60%
+    width: 60%;
 }
 
 aside{
     float: right;
-    width: 40%
+    width: 40%;
+
 }
