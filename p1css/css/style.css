@@ -1,0 +1,91 @@
+* {
+   
+}
+
+body {
+    background-color: rgba(241, 60, 15, 0.63);
+    background-image: url("img/intro-desktop.png");
+}
+
+h1 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    vertical-align: middle;
+    padding: 20% 20% 0% 20%
+    
+}
+
+h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    padding: 0% 20% 20% 20%;
+}
+
+p {
+    color: rgb(128, 126, 126);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(224, 105, 105);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.containerleft {
+    width: 50%;
+    float: left;
+    overflow: auto;    
+}
+
+.containerright {
+    width: 50%;
+    float: right;    
+}
+
+.subcontainer {
+    padding: 10% 15% 15% 0%;
+}
+
+.botonmorado {
+    background-color: #6737b6;
+    color:white;
+    margin-bottom: 10px;
+    padding: 15px; 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.cuadroblanco {
+    background-color: white;
+    padding: 45px 45px 15px 45px;
+    border-radius: 10px;
+    
+}
+
+.subcuadroblanco {
+    background-color: white;
+}
+
+.subcuadroblanco .input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 0px 12px;
+}
+
+#botonenviar {
+    background-color: #5eaa67 ;
+    color: white;
+    border: #54df64;
+    padding: 15px; 100px;
+    border-radius: 8px; 
+    width: 100%;
+}
+
+#textocentrado{
+    text-align: center;
+}
+
+
