@@ -1,0 +1,96 @@
+*{
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color:hsl(0, 0%, 95%);
+    
+    
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: table;
+    padding: 10% 13%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsl(0, 0%, 95%);
+    font-size: 1.15rem;
+    margin-bottom: 50%;
+    vertical-align: middle;
+}
+
+.bloque {
+    width: 33%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: top;
+    padding: 7% 5%;
+}
+
+.bordederecha {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.bordeizq {
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+.amarillo {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.azul {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.verde {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.espaciado {
+    margin-bottom: 30%;   
+}
+
+.verticalcenter{
+    align-items: middle;
+}
+
+
+.button {
+    padding: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    object-position: bottom;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.colortextamarillo {
+    color: hsl(31, 77%, 52%);
+}
+
+.colortextazul {
+    color: hsl(184, 100%, 22%);
+}
+
+.colortextverde {
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+
