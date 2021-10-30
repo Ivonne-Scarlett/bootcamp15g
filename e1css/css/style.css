@@ -1,0 +1,105 @@
+
+/*    */
+
+/*Selecciona todos los elementos del tipo párrafo que tengan la clase main-text*/
+ p.main-text p{
+
+ }
+
+ /* Selecciona todos los elementos de lista pares dentro de una lista no ordenada */
+ ul li:nth-of-type(even){
+
+ }
+
+ /* Selecciona los links visitados dentro de una barra de navegación   */
+ nav a(:visited) {
+
+ }
+
+ 
+/* Selecciona la imagen que sea descendiente inmediato de una card sobre la que se coloca el puntero del mouse  */
+cursor:point card +img{
+
+}
+
+/* Selecciona la primer sección que se encuentre dentro de una etiqueta main    */
+main > {
+
+}
+
+/* Selecciona cualquier elemento que incluya en su classlist el texto "btn"    */
+*[class^="btn"]{
+
+}
+
+/*  Selecciona todos los botones excepto aquellos que sean el último hijo  */
+*[button=>]{
+
+}
+
+/*  header#main-header > ul  */
+todas las listas ordenadas que se encuentren dentro de una clase main-header dentro del header
+
+/*  aside ul li:not(even)  */
+todas las listas ordenadas que no sean pares que esten dentro de un aside
+
+/*  section#posts article:nth-of-type( odd ) */
+todos los articulos nones que esten dentro de la clase posts dentro de un section
+
+/*  table tr td */
+todas las celdas que se encuentren en una fila de una tabla
+
+/*  footer > ul li a.nav-link */
+todos las clases nav-link que esten dentro de anchor que esten dentro de una lista no ordenada que su hijo directo sea un footer
+
+/*  p span.text-white */
+todos las clases text-white que esten dentro de un span dentro de un parrafo
+
+/*  section.bg-dark p.text-white span */
+todos los span que tengan una clase text-white que esten dentro de un parrafo que tengan una clase bg-dark dentro de un section
+
+/* Un botón cuyo color orginal sea azul, texto blanco, y al poner el mouse sobre de él su color de fondo cambie a peru y el texto sea negro ( el botón no debe tener borde en ninguno de ambos estados )  */
+button.transitioned{
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: all 1s ease;
+}
+
+button.transitioned:hover{
+    background-color: peru;
+    color: black;
+    border: none;
+}
+
+
+/* una sección que mida el ancho completo de la pantalla, la mitad de la pantalla de alto, y que dentro tenga dos imágenes cuales quiera, ambas con espacio igual entre ellas y entre los bordes de la sección  */
+section {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+
+section .img {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Crear 3 inputs de tipo radio, con las etiquetas "círculo", "cuadrado", "rectangulo", también crear un elemento que cambie de forma dependiendo del radio que esté seleccionado ( si se selecciona "círculo", el elemento debe convertirse en un círculo, y así respectivamente).    */
+.forma-1:checked{
+    width: 3rem;
+    height: 3rem;
+    transition:all 2s ease-out;
+}
+
+.forma-1:checked {
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+
+
+
