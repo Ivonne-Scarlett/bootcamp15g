@@ -13,30 +13,56 @@ nav{
 article{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: space-between;
+    margin: 4rem;
+    h4{
+        font-size: 3rem;
+        margin: none;
+    }
+    p {
+        border-top: 1px solid hsl(234, 14%, 74%);        
+        padding: 1rem;
+        margin: 0px;
+    }
+    .button {
+        width: 100%;
+        background-color: hsl(236, 72%, 79%);
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        color:white;
+        border: none;
+    }
+
+    .button-2 {
+        width: 100%;
+        background-color: white;
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        color:hsl(236, 72%, 79%);
+        border: none;
+    }
     .cards{
-        padding: 10px;
-        border: 1px solid hsl(234, 14%, 74%);
+        padding: 10px;        
         border-radius: 1rem;
+        background-color: white;                
     }
     .card2{
-        border: 2px solid hsl(232, 13%, 33%);
         border-radius: 10px;
         padding: 10px;
-        background-color: hsl(234, 14%, 74%);
+        background-color: hsl(236, 72%, 79%);
     }
+    
 }
 
  @media only screen and (min-width: 992px) {
     article{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         .cards{
             padding: 10px;
         }
-        .card2{
-            border: 2px solid hsl(232, 13%, 33%);
+        .card2{            
             border-radius: 10px;
             padding: 10px;
         }
