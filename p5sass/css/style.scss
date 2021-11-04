@@ -1,0 +1,44 @@
+body{
+    background-image: rgb(168, 168, 73);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(240, 78%, 98%);
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .cards{
+        padding: 10px;
+        border: 1px solid hsl(234, 14%, 74%);
+        border-radius: 1rem;
+    }
+    .card2{
+        border: 2px solid hsl(232, 13%, 33%);
+        border-radius: 10px;
+        padding: 10px;
+        background-color: hsl(234, 14%, 74%);
+    }
+}
+
+ @media only screen and (min-width: 992px) {
+    article{
+        display: flex;
+        flex-direction: row;
+        .cards{
+            padding: 10px;
+        }
+        .card2{
+            border: 2px solid hsl(232, 13%, 33%);
+            border-radius: 10px;
+            padding: 10px;
+        }
+    }
+ }
